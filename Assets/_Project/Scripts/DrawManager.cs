@@ -118,7 +118,7 @@ public class DrawManager : MonoBehaviour
             polyCollider.SetPath(0, polyPoints);
 
             Rigidbody2D rb = currentLine.AddComponent<Rigidbody2D>();
-            rb.mass = 1f;
+            rb.mass = 3f;
             rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous; 
             
             currentLine = null;

@@ -256,7 +256,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DrawManager
   linePrefab: {fileID: 171978995322449964, guid: 864615853fae90d4ebd3dca6600500a1, type: 3}
-  pointDistance: 0.01
+  pointDistance: 0.1
   maxPointsPerLine: 1000
 --- !u!1 &1351620713
 GameObject:
